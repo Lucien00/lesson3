@@ -6,5 +6,3 @@ with open('referat.txt', 'r', encoding='utf-8') as f:
     
 with open('referat2.txt', 'w', encoding='utf-8') as f:
     fil = f.write(fil.replace('.', '!'))
-
-sentence = 'Мы приехали в гости'
